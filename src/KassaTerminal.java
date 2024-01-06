@@ -46,13 +46,15 @@ public class KassaTerminal implements Observer {
 
                 // products
                 String prod = "";
+                float euro = 0;
                 for (int j = 0; j < aktuelleBestellungen.get(i).produkte.length; j++) {
                     prod += aktuelleBestellungen.get(i).produkte[j].getName();
+                    euro += aktuelleBestellungen.get(i).produkte[j].getPrice();
                     if (j+1 < aktuelleBestellungen.get(i).produkte.length) {
                         prod += ", ";
                     }
                 }
-                b += "[" + prod + "]\n";
+                b += "[" + prod + "] => " + euro + " €\n";
             }
         }
         return b;

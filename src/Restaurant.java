@@ -41,6 +41,7 @@ public class Restaurant {
         kAnzeige.bestellungBerbeiten(505);
         kAnzeige.bestellungBereit(505);
         kassa.bestellungAbholen(1001);
+        kassa.bestellungAbholen(7790);
 
         // anzeigen
         System.out.println(bAnzeige.display());
