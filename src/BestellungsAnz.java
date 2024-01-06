@@ -56,8 +56,6 @@ public class BestellungsAnz implements Observer {
                 .sorted((b1, b2) -> Integer.compare(b1.getBestellnr(), b2.getBestellnr()))
                 .collect(Collectors.toList());
 
-        display();
-
     }
 
 }
