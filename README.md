@@ -1,3 +1,8 @@
+# Fast-Food Observer Beispiel
+
+evtl. Produktenum zu einer Klasse machen aber Vittori fand es auch so gut (GKv)
+
+****
 # Java-Projektvorlage
 
 Dieses Repository enthält ein IntelliJ Java Projekt. Um das Projekt mit einer anderen IDE zu
